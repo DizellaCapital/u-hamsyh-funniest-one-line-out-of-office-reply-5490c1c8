@@ -8,13 +8,13 @@ One funny line an inbox sends while its owner is away — a [make.fun](https://m
 
 ## The reply
 
-> **I'm out until Monday — I set this reply from a dentist's chair at 9:40, mid-root-canal, because my inbox scares me more than the drill.**
+> **I'm out until Monday. At 7:12 this morning my daughter taped 'DAD IS OFF' to my laptop, and I have never obeyed a Post-it so fast in my life.**
 
-The owner switched this on mid-root-canal at 9:40 — not because the dentist was gentle, but because the inbox waiting at home is scarier than the drill.
+At 7:12 this morning a small hand taped 'DAD IS OFF' to the laptop — and the owner obeyed a Post-it faster than any calendar invite ever managed.
 
 ## How it works
 
-`main.py` (stdlib only) writes the reply to `MAKEFUN_OUTPUT_DIR/entry.txt` (fallback `/output`), validates it is a single line of 1–160 characters with no trailing newline, and verifies the write by reading it back and comparing bytes. The entry file is exactly 137 bytes, with no trailing newline.
+`main.py` (stdlib only) writes the reply to `MAKEFUN_OUTPUT_DIR/entry.txt` (fallback `/output`), validates it is a single line of 1–160 characters with no trailing newline, and verifies the write by reading it back and comparing bytes. The entry file is exactly 141 bytes, with no trailing newline.
 
 ```sh
 python3 main.py
