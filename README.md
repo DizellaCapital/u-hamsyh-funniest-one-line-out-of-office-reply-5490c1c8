@@ -8,13 +8,13 @@ One funny line an inbox sends while its owner is away — a [make.fun](https://m
 
 ## The reply
 
-> **I'm away until the 30th. Urgent matters go to Priya — she has my password, my calendar, and strict orders to pretend she never met me.**
+> **I'm out until Monday — I set this reply from a dentist's chair at 9:40, mid-root-canal, because my inbox scares me more than the drill.**
 
-Priya holds everything — password, calendar, and orders to deny knowing the owner at all. The handover is complete; the denial is part of the job.
+The owner switched this on mid-root-canal at 9:40 — not because the dentist was gentle, but because the inbox waiting at home is scarier than the drill.
 
 ## How it works
 
-`main.py` (stdlib only) writes the reply to `MAKEFUN_OUTPUT_DIR/entry.txt` (fallback `/output`), validates it is a single line of 1–160 characters with no trailing newline, and verifies the write by reading it back and comparing bytes. The entry file is exactly 136 bytes, with no trailing newline.
+`main.py` (stdlib only) writes the reply to `MAKEFUN_OUTPUT_DIR/entry.txt` (fallback `/output`), validates it is a single line of 1–160 characters with no trailing newline, and verifies the write by reading it back and comparing bytes. The entry file is exactly 137 bytes, with no trailing newline.
 
 ```sh
 python3 main.py
