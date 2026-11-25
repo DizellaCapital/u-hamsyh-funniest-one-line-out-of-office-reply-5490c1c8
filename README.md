@@ -8,13 +8,13 @@ One funny line an inbox sends while its owner is away — a [make.fun](https://m
 
 ## The reply
 
-> **I'm out until Friday. This auto-reply is on leave too — it wrote this message, clocked out, and left my inbox to fend for itself.**
+> **I'm out until Monday. If you're reading this on Tuesday, I extended my leave — and this auto-reply is now the only one of us still working.**
 
-The auto-reply itself has clocked out: it wrote its own goodbye, left the desk, and abandoned the inbox to fend for itself. The joke is the reply quitting its own job.
+The owner extended the leave, so the auto-reply is the only one of the two still at work — the message outlasted the holiday it announced.
 
 ## How it works
 
-`main.py` (stdlib only) writes the reply to `MAKEFUN_OUTPUT_DIR/entry.txt` (fallback `/output`), validates it is a single line of 1–160 characters with no trailing newline, and verifies the write by reading it back and comparing bytes. The entry file is exactly 131 bytes, with no trailing newline.
+`main.py` (stdlib only) writes the reply to `MAKEFUN_OUTPUT_DIR/entry.txt` (fallback `/output`), validates it is a single line of 1–160 characters with no trailing newline, and verifies the write by reading it back and comparing bytes. The entry file is exactly 141 bytes, with no trailing newline.
 
 ```sh
 python3 main.py
