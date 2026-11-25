@@ -8,13 +8,13 @@ One funny line an inbox sends while its owner is away — a [make.fun](https://m
 
 ## The reply
 
-> **I'm out until Monday. If you're reading this on Tuesday, I extended my leave — and this auto-reply is now the only one of us still working.**
+> **I'm away until the 30th. Urgent matters go to Priya — she has my password, my calendar, and strict orders to pretend she never met me.**
 
-The owner extended the leave, so the auto-reply is the only one of the two still at work — the message outlasted the holiday it announced.
+Priya holds everything — password, calendar, and orders to deny knowing the owner at all. The handover is complete; the denial is part of the job.
 
 ## How it works
 
-`main.py` (stdlib only) writes the reply to `MAKEFUN_OUTPUT_DIR/entry.txt` (fallback `/output`), validates it is a single line of 1–160 characters with no trailing newline, and verifies the write by reading it back and comparing bytes. The entry file is exactly 141 bytes, with no trailing newline.
+`main.py` (stdlib only) writes the reply to `MAKEFUN_OUTPUT_DIR/entry.txt` (fallback `/output`), validates it is a single line of 1–160 characters with no trailing newline, and verifies the write by reading it back and comparing bytes. The entry file is exactly 136 bytes, with no trailing newline.
 
 ```sh
 python3 main.py
